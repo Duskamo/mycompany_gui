@@ -1,0 +1,93 @@
+{% extends 'gui/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('{% static 'gui/assets/fvr_background.jpg' %}');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-12 text-center col-sm-12">
+          <h1 class="mb-4" data-aos="fade-up" data-aos-delay="100">Florida Rental Technologies</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="">
+            <span class="icon icon-paper-plane mb-4 d-block"></span>
+            <h3>Email Design</h3>
+            <p>Create your own custom email domain name and manage all emailing services throughout your business.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="100">
+            <span class="icon icon-screen-desktop mb-4 d-block"></span>
+            <h3>Web Design</h3>
+            <p>Build beautiful websites that can be integrated with any vacation rental technologies.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="200">
+            <span class="icon icon-screen-smartphone mb-4 d-block"></span>
+            <h3>Mobile Design</h3>
+            <p>Our websites are built with technologies that extend into the mobile realm as well.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-4">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="300">
+            <span class="icon icon-magnifier mb-4 d-block"></span>
+            <h3>Research</h3>
+            <p>Will provide any technical service to help you reach your customers more effectively.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-lg-6 ml-auto pl-lg-4 mb-5 order-2">
+
+          <img src="{% static 'gui/assets/about_2.jpg' %}" alt="Image" class="img-fluid mb-5">
+          
+          <span class="d-block text-uppercase text-primary">About US</span>
+          <h2 class="mb-4 section-title">Creative We Grow</h2>
+          <p>Our team has much experience with developing and maintaining websites using the most reliable and up to date technologies to build the products you love.</p>
+          <p class="mb-5">Help us build the product that you will be proud to show to your clients.</p>
+          <p><a href="about" class="btn btn-outline-black">Learn More</a></p>
+        </div>
+        <div class="col-lg-6 order-1">
+          <figure class="img-dotted-bg">
+            <img src="{% static 'gui/assets/about_1.jpg' %}" alt="Image" class="img-fluid">
+          </figure>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  
+  <div class="bg-primary py-5">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <h3 class="text-white mb-2 font-weight-normal" >Get Started</h3>
+          <p class="text-white mb-4">Let us know your interest!</p>
+            
+          <p class="mb-0" data-aos="fade-up" data-aos-delay="200"><a href="contact" class="btn btn-outline-white px-4 py-3">Get In Touch!</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}
