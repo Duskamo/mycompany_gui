@@ -20,6 +20,8 @@
 
   <!-- Theme Style -->
   <link rel="stylesheet" href="{% static 'gui/css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'gui/assets/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css' %}">
+  <link rel="stylesheet" href="{% static 'gui/assets/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css' %}">
 
 </head>
 
@@ -133,6 +135,27 @@
   <script src="{% static 'gui/js/jquery.stellar.min.js' %}"></script>
   <script src="{% static 'gui/js/aos.js' %}"></script>
   <script src="{% static 'gui/js/main.js' %}"></script>
+  <script src="{% static 'gui/assets/OwlCarousel2-2.3.4/dist/owl.carousel.min.js' %}"></script>
+  <script>
+	$(document).ready(function(){
+		var owl = $('.owl-carousel');
+		owl.owlCarousel({
+		    items:1,
+		    loop:true,
+		    margin:10,
+		    autoplay:true,	
+		    autoplaySpeed:5000,
+		    autoplayTimeout:10000,
+		    autoplayHoverPause:true
+		});
+		$('.play').on('click',function(){
+		    owl.trigger('play.owl.autoplay',[1000])
+		})
+		$('.stop').on('click',function(){
+		    owl.trigger('stop.owl.autoplay')
+		})
+	});
+  </script>
 
 </body>
 
