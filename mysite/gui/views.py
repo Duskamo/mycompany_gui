@@ -23,7 +23,7 @@ def portfolio_single_s(request, project_id):
     context = [{
                'project_title':'DLandry Beach Houses',
                'project_details_1':"This project is hopefully one of our many projects in the vacation rental industry. We've built a website for our client that accuratly describes their rental business in a nicely styled design.",
-               'project_details_2':"It integrates with their VRBO page with booking, and has it's own payment processes system to help the client bypass all charges that rental sites like VRBO normally require.",
+               'project_details_2':"It integrates with their VRBO page with booking, and has it's own payment processing system to help the client bypass all charges that rental sites like VRBO normally require.",
                'roles':'HTML, CSS, Javascript/Jquery, Python/Flask/Django, MySQL, Microservice, AWS EC2',
                'client':'DLandry Beach Houses',
                'website_link':"http://dlandrybeachhouses.com:5000",
@@ -32,13 +32,13 @@ def portfolio_single_s(request, project_id):
                'project_title':'Bluemarble',
                'project_details_1':"This project is one of a few projects dealt with one of our most loyal clients. It helps with the process of easily designing skills for Amazon Alexa by having to code as little as possible to create interesting Alexa apps.",
                'project_details_2':"We're proud to say that our team completed the majority of the application which is still being used today.",
-               'roles':'HTML, CSS, Javascript/Jquery, Python/Flask, Microservice, AWS EC2/Lambda, Web Scraping/Automation',
+               'roles':'HTML, CSS, Javascript/Jquery, Python/Flask, Microservice, AWS EC2/Lambda, Amazon Alexa, Web Scraping/Automation',
                'client':'Bluemarble',
                'website_link':"",
                'pic_1':'project_2.jpg'
     },{
                'project_title':'Appto Health',
-               'project_details_1':"This project is is for the healthcare feild that helps with communication between hospital employees to help them become more efficient and productive.",
+               'project_details_1':"This project is for the healthcare field that helps with communication between hospital employees to help them become more efficient and productive.",
                'project_details_2':"Our team helped create some of the graphical features for this site including input wizards, modals, and administration pages.",
                'roles':'HTML, CSS, Javascript/Jquery, PHP/MySQL',
                'client':'Appto Health',
