@@ -527,6 +527,23 @@ header {
 						font-size: 3rem;
 					}
 				}
+				h2 {
+					font-size: 7rem;
+					color: $white;
+					line-height: 1.2;
+					font-weight: 700!important;
+
+					margin-bottom: 30px;
+					// margin-left: 0.5em;
+					span {
+						color: white;
+				    background-color: $primary;
+				    box-shadow: 0.5em 0 0 $primary,-0.5em 0 0 $primary;
+					}
+					@include media-breakpoint-down(md) {
+						font-size: 3rem;
+					}
+				}
 				p {
 					font-size: 20px;
 					line-height: 1.5;

@@ -247,5 +247,6 @@
 		});
 	}
   	sendContactInfo();
+
   
 })(jQuery);
