@@ -52,6 +52,14 @@ def portfolio_single_s(request, project_id):
                'client':'Tablelead',
                'website_link':"https://www.tablelead.com",
                'pic_1':'project_4.PNG'
+    },{
+               'project_title':'Sailboat Finder',
+               'project_details_1':"This project is a small one for a client looking to find a list of nearby used sailboats for sale in the clients local area for their own business.",
+               'project_details_2':"Our team used several websites to gather information and filter it by location and price to build this small web application.",
+               'roles':'HTML/CSS, Javascript/Jquery, Python/Flask, Web Scraping/Automation',
+               'client':'Sailboats of Navarre Beach',
+               'website_link':"",
+               'pic_1':'project_5.png'
     }]
 
 
