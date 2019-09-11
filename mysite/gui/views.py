@@ -60,6 +60,14 @@ def portfolio_single_s(request, project_id):
                'client':'Sailboats of Navarre Beach',
                'website_link':"",
                'pic_1':'project_5.png'
+    },{
+               'project_title':'Hyperfocal Distance Calculator',
+               'project_details_1':"This project helped out a photography client with a prexisting website by building a tool that calculated the hyperfocal distance of an object.",
+               'project_details_2':"Our team built the calculations tool with an interesting use of inputs and animations to help the tool become more interactive and user friendly with its users.",
+               'roles':'HTML/CSS, Javascript/Jquery',
+               'client':'Pixels and Wanderlust',
+               'website_link':"http://pixelsandwanderlust.com",
+               'pic_1':'project_6_2.png'
     }]
 
 
